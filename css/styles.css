@@ -17,6 +17,11 @@ nav i{
 }
 nav ul{
 	color: white;
+	text-align: center;
+}
+
+ul{
+	text-align: center;
 }
 
 li{
@@ -25,10 +30,41 @@ li{
 
 nav img{
 	position: fixed;
-	left: 32%;
+	top: -10px;
 }
 
 section{
 	position: absolute;
 	top: 200px;
+}
+
+h2{
+	background: black;
+	color: white;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+	position: relative;
+	top: -45px;
+}
+
+.yellow{
+	background-color: #F2C61F;
+}
+
+.blue{
+	background-color: #00B5AD;
+}
+
+.red{
+	background-color: #D95C5C;
+}
+
+.green{
+	background-color: #5BBD72;
 }
