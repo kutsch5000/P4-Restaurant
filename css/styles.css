@@ -1,0 +1,34 @@
+
+nav{
+	background: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+nav i{
+	color: white;
+}
+nav ul{
+	color: white;
+}
+
+li{
+	display: inline;
+}
+
+nav img{
+	position: fixed;
+	left: 32%;
+}
+
+section{
+	position: absolute;
+	top: 200px;
+}

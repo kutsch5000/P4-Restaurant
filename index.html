@@ -10,55 +10,33 @@
   </head>
   
   <body>
-    <h1>Sushi Maru </h1>
+      
+    <nav>
+      <img src="img/maru.png" width="25%">
       <!-- Contact -->
-<div class="ui compact menu">
-  <div class="ui simple dropdown item">
-  <i class="dropdown icon"></i>
-  Contact Us
-  <div class="menu">
-      <div class="ui list">
-  <div class="item">
-    <i class="big map icon"></i>
-    <div class="content">
-      <div class="header">
-        River Park Square<br>
-        808 West Main Ave Suite #105<br>
-        Spokane, WA 99201
-      </div>
-    </div>
-  </div>
-  <div class="item">
-    <i class="big call icon"></i>
-    <div class="content">
-      <div class="header">Phone (509) 455-3900</div>
-    </div>
-  </div>
-  <div class="item">
-    <i class="big mail outline icon"></i>
-    <div class="content">
-      <div class="header">maruspokane@gmail.com</div>
-    </div>
-  </div>
-  </div>
-</div>
-</div>
-</div>
-      <!-- Map -->
-    <div class="ui compact menu">
-  <div class="ui simple dropdown item">
-  <i class="dropdown icon"></i>  
-  Where Are We?
-  <div class="menu">
-      <div class="ui list">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10749.040677192923!2d-117.423774!3d47.659942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4100979c0cf5d029!2sSushi+Maru!5e0!3m2!1sen!2sus!4v1425022679600" width="400" height="300" frameborder="0" style="border:0"></iframe>
-      </div>
-  </div>
-  </div>
-  </div>
+    <ul>
+      <li>Contact Us</li>
+    <li><i class="big call icon"></i>
+      Phone (509) 455-3900</li>
+    <li><i class="big mail outline icon"></i>
+      maruspokane@gmail.com</li>
+      <!-- Map --> 
+      <li><a href="#"><i class="big map icon"></i>
+      808 West Main Ave #105 Spokane, WA 99201</a></li>
+      </nav>
+      <div class="ui modal">
+        <i class="close icon"></i>
+          <div class="header">
+          Here We Are!
+          </div>
+          <div class="content">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10749.040677192923!2d-117.423774!3d47.659942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4100979c0cf5d029!2sSushi+Maru!5e0!3m2!1sen!2sus!4v1425022679600" width="400" height="300" frameborder="0" style="border:0"></iframe>
+        </div>
+        </div>
+
       
       <!-- Menu -->
-      
+    <section>  
       <h2>Pricing</h2>
       
       <p>Prices are determined by plate color, e.g. a yellow plate is $1.50. </p>
@@ -203,6 +181,7 @@
       </div>
     </div>
     </div>
+    </section>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
     <script src="js/semantic.min.js"></script>
     <script src="js/scripts.js"></script>
